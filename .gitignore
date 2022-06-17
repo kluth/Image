@@ -104,3 +104,7 @@ dist
 .tern-port
 
 .idea
+
+package-lock.json
+build
+coverage
