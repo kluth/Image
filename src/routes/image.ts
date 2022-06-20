@@ -1,14 +1,13 @@
-import express from "express";
-import ImagesController from "../controllers/Images";
+import express from 'express'
+import ImagesController from '../controllers/Images'
 
 const router = express.Router()
 
-
 router.delete('/', ImagesController.deleteAllImages)
 
-router.get("/", ImagesController.getAllImages)
+router.get('/', ImagesController.getAllImages)
 
-router.get("/view/:id", ImagesController.getImage)
+router.get('/view/:id', ImagesController.getImage)
 
 router.get('/resize', ImagesController.randomResizeAll)
 

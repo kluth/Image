@@ -1,5 +1,4 @@
 import fs from 'fs'
-import sharp from 'sharp'
 import ImageService from '../../src/services/image'
 
 jest.mock('fs')
